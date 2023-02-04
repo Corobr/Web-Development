@@ -6,6 +6,7 @@ nav a{
     text-align: center;
     color: darkgray;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1{
     text-align: center;
@@ -25,9 +26,14 @@ main section{
 }
 body {
     background-color: #fcfbfb; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0
 }
 header {
     background-color:rgba(20,30,13, .7);
+    font-family: Arial, Helvetica, sans-serif;
 }
 nav a:hover {
     background-color: black;
@@ -37,11 +43,19 @@ nav a:hover {
     background: grey;
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border: 5px;
 }
 .join{
     background-color:rgba(115, 185, 65, 0.7);
-    color: red;
+    color:black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover{
     background-color: royalblue;
@@ -56,23 +70,33 @@ nav a:hover {
 }
 .msg{
     background-color:rgba(20,30,13, .7);
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer{
     background-color:rgba(20,30,13, .7);
-    color: slategray;
+    color: white;
     font-size: 1.2em;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .home-title{
     color:gold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 .msg h2{
-    color: tan;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .msg p{
-    color: orange;
+    color: white;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer a{
-    color: rgb(134, 76, 34);
+    color: black;
     text-decoration: none;
 }
 footer a:hover{
@@ -81,10 +105,33 @@ footer a:hover{
 }
 .logo{
     width: 80px;
+    padding-top: 5px;
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img{
     width: 100%;
+}
+h2{
+    margin: 0;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.rivers-card{
+    margin: 200px 0;
+}
+.camping-card{
+    margin: 200px 0;
+}
+.rapids-card{
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
 }
