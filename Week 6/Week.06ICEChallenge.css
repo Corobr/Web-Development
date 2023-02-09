@@ -1,0 +1,41 @@
+.content{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-row-gap: 30px;
+}
+.cherriesimg{
+    grid-column: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    text-align: center;
+}
+.tartAndSweet{
+    font-size: 200px;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-end: 3;
+    text-align: center;
+    font-weight: 1000;
+    margin-top: 100px;
+    z-index: 2;
+}
+.cherries{
+    grid-row: 2;
+    font-size: 100px;
+    grid-column: 2;
+    grid-row: 2;
+    color: darkred;
+    text-align: center;
+    z-index: 3;
+    padding-top: 100px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.box{
+    grid-column: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: lightgrey;
+}
